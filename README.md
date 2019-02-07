@@ -1,1 +1,1 @@
-# javascriptkitty.github.io
+# kitty.github.io

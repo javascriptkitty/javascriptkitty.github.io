@@ -8,14 +8,10 @@ body {
 
 .jumbotron {
   background: url(../images/13507029_1339176479429127_2305869606237330674_n.jpg);
-  /* font-family: "Rokkitt", serif; */
-  font-family: Flatform;
-  font-weight: bold;
+  font-family: SalesforceSans;
   width: 100%;
   min-height: 320px;
 }
-
-/* font-family: 'Wendy One', sans-serif; */
 
 .jumbRow {
   display: flex;
@@ -67,11 +63,11 @@ footer {
 }
 
 @font-face {
-  font-family: Flatform;
-  src: url(fonts/Flatform.ttf);
+  font-family: Satellite;
+  src: url(fonts/Satellite.otf);
 }
 
 @font-face {
-  font-family: Satellite;
-  src: url(fonts/Satellite.otf);
+  font-family: SalesforceSans;
+  src: url(fonts/SalesforceSans-Bold.woff);
 }

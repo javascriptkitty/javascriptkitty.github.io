@@ -1,13 +1,16 @@
 body {
   background-image: url(../images/DSC100279002.jpg);
   background-size: cover;
-  font-family: "Open Sans", sans-serif !important;
-  letter-spacing: 1px;
+  font-family: Satellite !important;
+  font-size: 14pt !important;
+  letter-spacing: 0.5px;
 }
 
 .jumbotron {
   background: url(../images/13507029_1339176479429127_2305869606237330674_n.jpg);
-  font-family: "Rokkitt", serif;
+  /* font-family: "Rokkitt", serif; */
+  font-family: Flatform;
+  font-weight: bold;
   width: 100%;
   min-height: 320px;
 }
@@ -52,6 +55,10 @@ nav img {
   }
 }
 
+footer {
+  font-size: 9pt !important;
+  letter-spacing: 2px;
+}
 @media screen and (max-width: 768px) {
   .white-box {
     display: flex;
@@ -63,27 +70,8 @@ nav img {
   font-family: Flatform;
   src: url(fonts/Flatform.ttf);
 }
-@font-face {
-  font-family: OpenSans;
-  src: url(fonts/OpenSansCondensed-Light.ttf);
-}
-@font-face {
-  font-family: OpenSans-semibold;
-  src: url(fonts/OpenSans-SemiBold.ttf);
-}
-@font-face {
-  font-family: OpenSans-bold;
-  src: url(fonts/OpenSans-Bold.ttf);
-}
-@font-face {
-  font-family: OpenSans-Bolditalic;
-  src: url(fonts/OpenSans-BoldItalic.ttf);
-}
+
 @font-face {
   font-family: Satellite;
   src: url(fonts/Satellite.otf);
-}
-@font-face {
-  font-family: Socialico;
-  src: url(fonts/Socialico.ttf);
 }

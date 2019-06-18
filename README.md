@@ -1,8 +1,6 @@
-# Basic-Portfolio
+# Portfolio
 
-![Site screenshort](https://github.com/javascriptkitty/Basic-Portfolio/blob/master/images/Basic-Portfolio_ScreenShot.png)
-
-A site about a bored kitty
+![Site screenshort](https://github.com/javascriptkitty/my_portfolio/blob/master/images/ScreenShot.png)
 
 ## Technoligies Used
 

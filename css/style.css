@@ -1,0 +1,89 @@
+body {
+  background-image: url(../images/DSC100279002.jpg);
+  background-size: cover;
+  font-family: "Open Sans", sans-serif !important;
+  letter-spacing: 1px;
+}
+
+.jumbotron {
+  background: url(../images/13507029_1339176479429127_2305869606237330674_n.jpg);
+  font-family: "Rokkitt", serif;
+  width: 100%;
+  min-height: 320px;
+}
+
+/* font-family: 'Wendy One', sans-serif; */
+
+.jumbRow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+.card-header {
+  font-size: 16pt;
+  text-align: center;
+}
+.card img {
+  margin: 5px auto;
+}
+nav img {
+  margin: 5px 10px;
+}
+.navbar-brand {
+  font-family: "Quintessential", cursive;
+  letter-spacing: 2px;
+}
+.card-img-overlay {
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .white-box {
+    text-align: center;
+  }
+  .white-box span {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .white-box {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@font-face {
+  font-family: Flatform;
+  src: url(fonts/Flatform.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(fonts/OpenSansCondensed-Light.ttf);
+}
+@font-face {
+  font-family: OpenSans-semibold;
+  src: url(fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: OpenSans-bold;
+  src: url(fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSans-Bolditalic;
+  src: url(fonts/OpenSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Satellite;
+  src: url(fonts/Satellite.otf);
+}
+@font-face {
+  font-family: Socialico;
+  src: url(fonts/Socialico.ttf);
+}

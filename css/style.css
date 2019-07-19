@@ -67,6 +67,11 @@ footer {
   }
 }
 
+.form-group input,
+.form-control {
+  max-width: 600px;
+}
+
 @font-face {
   font-family: Satellite;
   src: url(fonts/Satellite.otf);

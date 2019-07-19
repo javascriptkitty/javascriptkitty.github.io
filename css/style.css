@@ -55,6 +55,11 @@ footer {
   font-size: 9pt !important;
   letter-spacing: 2px;
 }
+
+#navbarSupportedContent ul {
+  display: flex !important;
+  justify-content: flex-end;
+}
 @media screen and (max-width: 768px) {
   .white-box {
     display: flex;

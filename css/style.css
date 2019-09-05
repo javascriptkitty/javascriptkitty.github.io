@@ -8,7 +8,8 @@ body {
 
 .jumbotron {
   background: url(../images/13507029_1339176479429127_2305869606237330674_n.jpg);
-  font-family: SalesforceSans;
+  font-family: "Gruppo", cursive;
+  font-weight: bold;
   width: 100%;
   min-height: 320px;
 }
@@ -28,6 +29,10 @@ footer {
   font-size: 16pt;
   text-align: center;
 }
+.card-title {
+  padding-top: 10px;
+  font-weight: bold;
+}
 .card img {
   margin: 5px auto;
 }
@@ -40,9 +45,10 @@ nav img {
   margin: 5px 10px;
 }
 .navbar-brand {
-  font-family: "Quintessential", cursive;
+  font-family: "Cabin Sketch", cursive;
   letter-spacing: 2px;
 }
+
 .card-img-overlay {
   padding: 0 !important;
 }
@@ -82,7 +88,21 @@ footer {
   src: url(fonts/Satellite.otf);
 }
 
-@font-face {
+/* @font-face {
   font-family: SalesforceSans;
   src: url(fonts/SalesforceSans-Bold.woff);
+} */
+@media only screen and (min-width: 992px) {
+  #navbarSupportedContent {
+    display: flex !important;
+    justify-content: flex-end;
+  }
 }
+
+/* 
+font-family: 'Handlee', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Coming Soon', cursive;
+font-family: 'Gruppo', cursive;
+font-family: 'Buda', cursive;
+font-family: 'Libre Barcode 128 Text', cursive; */
